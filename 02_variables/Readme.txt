@@ -1,55 +1,46 @@
-Python Variables
-A variable is a container for storing data values. 
-In Python, we don't need to declare a variable type; 
-Python automatically detects it as Python is a DYNAMICALLY TYPED LANGUAGE.
+# Python Variables 📌
 
-Creating Variables: We create a variable by assigning a value to it using the = sign.
+Variables in Python act as **containers for storing data**. Python is a **dynamically typed language**, meaning you don't need to declare a variable type—it automatically detects it.
 
-x = 5    # Integer variable
+## 🔹 Creating Variables
+Assign values using the `=` sign:
+```python
+x = 5      # Integer variable
 y = "Hello"  # String variable
-z = 3.14  # Float variable
+z = 3.14   # Float variable
 
-Variable Naming Rules:
+🔹 Naming Rules
+✅ Start with a letter or _ ✅ Cannot start with a number ✅ Can contain letters, numbers, _ ✅ Case-sensitive (name ≠ Name)
 
-Must start with a letter or underscore (_)
+🔹 Changing & Assigning Variables
+x = 10  # Change value
+a, b, c = 1, 2, 3  # Multiple assignment
 
-Cannot start with a number
-
-Can contain letters, numbers, and underscores
-
-Case-sensitive (name and Name are different)
-
-Changing a Variable's Value: Python allows you to reassign a variable.
-
-python
-x = 10  # Now x holds 10 instead of 5
-Multiple Variable Assignment: You can assign multiple variables at once.
-
-python
-a, b, c = 1, 2, 3
-Variables and Data Types: Python supports various data types, and you can check a variable's type using type().
-
-python
+🔹 Checking Data Type
 num = 10
-print(type(num))  # Output: <class 'int'>
+print(type(num))  # <class 'int'>
 
-Global vs. Local Variables: Variables declared inside a function are local, while those outside are global.
-
-python
+🔹 Scope: Global vs. Local Variables
 def my_function():
-    local_var = "I am local"
+    local_var = "Local"
     print(local_var)
 
-global_var = "I am global"
+global_var = "Global"
 print(global_var)
 
-# Built-in data-types in Python
-1. Integer
-2. Float
-3. String
-4. Boolean
-5. List : Ordered, mutable collection of datatype (eg. [1,2,3])
-6. Tuples : Ordered, Immutable collection of datatype variable (eg. (1,2,3))
-7. Sets : Unordered collection of unique elements (eg. {1,2,3})
-8. Dictionary : key Value pairs (eg. {"name" : "Alice", "age" : 25})
+🔹 Built-in Data Types
+Integer → Whole numbers
 
+Float → Decimal numbers
+
+String → Text data
+
+Boolean → True or False
+
+List → [1, 2, 3] (Ordered, Mutable)
+
+Tuple → (1, 2, 3) (Ordered, Immutable)
+
+Set → {1, 2, 3} (Unordered, Unique)
+
+Dictionary → {"name": "Alice", "age": 25} (Key-value pairs)
