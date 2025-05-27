@@ -1,0 +1,21 @@
+'''
+Escape characters :
+
+Escape characters in Python are special sequences used to represent characters that are difficult or impossible to type directly into a string. They are typically introduced using a backslash (\). Here are some common escape characters and their meanings:
+
+Escape Character
+\n	Newline (moves cursor to the next line)
+\t	Tab (adds a tab space)
+\\	Backslash (inserts a literal \)
+\'	Single quote (useful inside single-quoted strings)
+\"	Double quote (useful inside double-quoted strings)
+\r	Carriage return (moves cursor to beginning of line)
+\b	Backspace (removes the previous character)
+
+Example Usage:
+
+print("Hello\nWorld")  # Moves "World" to a new line
+print("Tab\tSpace")    # Adds a tab space between "Tab" and "Space"
+print("She said: \"Hello!\"")  # Uses escaped double quotes
+
+'''
