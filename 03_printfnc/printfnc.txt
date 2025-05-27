@@ -1,0 +1,25 @@
+'''
+print function
+
+sep (Separator)
+    The sep parameter specifies the separator used between multiple arguments.
+
+    By default, Python separates arguments with a space (" ").
+
+    You can change it to any string you want.
+
+    >>>> print("Hello", "World", "Python", sep="-")
+        # Output: Hello-World-Python
+
+end (End Character)
+    The end parameter determines what happens at the end of the printed output.
+
+    By default, Python adds a newline ("\n"), so each print() statement prints on a new line.
+
+    You can change it to any string you want.
+
+    >>>>print("Hello", end=" ")
+        print("World")
+        # Output: Hello World
+
+'''
