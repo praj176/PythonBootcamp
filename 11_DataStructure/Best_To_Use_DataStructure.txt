@@ -1,0 +1,48 @@
+Choosing the Right Data Structure
+📌 If you need fast lookups, use a dictionary. 
+📌 If you need ordered and changeable data, use a list. 
+📌 If data should never change, use a tuple. 
+📌 If uniqueness is important, use a set. 
+
+1. List ([]) – Ordered & Mutable
+Use When: You need a collection of items that can change, and order matters.
+
+🔹 Example: Storing a To-Do List
+
+python
+tasks = ["Buy groceries", "Finish report", "Call mom"]
+tasks.append("Book flight")  # Add new task
+tasks.remove("Finish report")  # Remove completed task
+print(tasks)
+✅ Best for: Dynamic lists, queues, and ordered data.
+
+2. Tuple (()) – Ordered & Immutable
+Use When: You need a collection that should never change.
+
+🔹 Example: Storing GPS Coordinates
+
+python
+location = (12.9716, 77.5946)  # Latitude, Longitude
+print(location[0])  # Access latitude
+✅ Best for: Fixed data like coordinates, days of the week, or configuration settings.
+
+3. Set ({}) – Unordered & Unique
+Use When: You need unique items and don’t care about order.
+
+🔹 Example: Storing Unique Email Subscribers
+
+python
+subscribers = {"alice@example.com", "bob@example.com"}
+subscribers.add("charlie@example.com")  # Add new subscriber
+print(subscribers)  # No duplicates allowed!
+✅ Best for: Removing duplicates, fast membership checks.
+
+4. Dictionary ({key: value}) – Key-Value Mapping
+Use When: You need fast lookups with named keys.
+
+🔹 Example: Customer Database
+
+python
+customer = {"name": "Alice", "age": 30, "email": "alice@example.com"}
+print(customer["email"])  # Quick access by key
+✅ Best for: Storing structured data like user profiles, inventories, or API responses.
