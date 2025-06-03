@@ -10,7 +10,7 @@ Decorator does the same thing, they "wrap" around a function and enhance it.
 
 Decorator adds some functionality to it, and returns a new function—without modifying the original function's actual code.
 '''
-def decorator(func):
+def decorator(func): #Take function as a input and decorates it using the wrapper function inside.
     def wrapper(): #This is the "wrapped" function that adds extra behavior.It: Prints a line before > Calls the original func() (whatever function was passed in) > Prints a line after
         print("Let's print Hello here")
         func()
@@ -20,22 +20,20 @@ def decorator(func):
 #Decorator is a function that takes a function > then it creates a new function in it's body(wrapper)
 # Then it returns that new function
 
+#  Conventional approach to call the decorator function
 
-# def say_hello():
-#     print("hello!")
-    
-# say_hello()
-
-# ####### traditional approach to call the decorator function
-
-# deco  = decorator(say_hello)
+# deco  = decorator(say_hello) > say_hello function is taken as an input to the decorator function.
 # deco
 
-# Original syntax which is ususally used
-@decorator 
-def say_hello():
+# Most commonly used syntax 
+@decorator # decorator name
+def say_hello(): #under the @decorator call, we have to specify which function we have to decorate
     print("hello!")
     
-''' It syntactically means say_hello= decorator(say_hello)
+''' 
+It syntactically means 
+
+say_hello= decorator(say_hello)
+
 it modifies the behavior of the say_hello by wrapping it inside the wrapper()
 '''
