@@ -1,27 +1,21 @@
 class Point:
-    def __init__(self, x, y):
-        """Constructor: Initializes the x and y values for a point"""
+    def __init__(self, x, y): # Constructor: Initializes the x and y values for object/instance of this class.
         self.x = x
         self.y = y
         
-    def __add__(self, other):
-        """Overloads the + operator to add two Point objects"""
+    def __add__(self, other): #Overloads the + operator to add two Point objects
         return Point(self.x + other.x, self.y + other.y)
     
-    def sum(self, p):
-        """Adds two points and returns a new Point object"""
+    def sum(self, p): #Adds two points and returns a new Point object
         return Point((self.x + p.x), (self.y + p.y))
     
-    def print_p(self):
-        """Displays the x and y values of the point"""
+    def print_p(self): #Displays the x and y values of the point
         return f"X is {self.x} and Y is {self.y}"
     
-    def __sub__(self, other):
-        """Overloads the - operator to subtract two Point objects"""
+    def __sub__(self, other): #Overloads the - operator to subtract two Point objects
         return Point(self.x - other.x, self.y - other.y)
 
-    def __mul__(self, factor):
-        """Overloads the * operator to multiply the point coordinates by a number"""
+    def __mul__(self, factor: #Overloads the * operator to multiply the point coordinates by a number
         return Point(self.x * factor, self.y * factor)
     
 # Creating two points
