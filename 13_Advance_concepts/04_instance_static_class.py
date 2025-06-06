@@ -1,3 +1,8 @@
+'''
+Static Method is a method inside a class that doesn't take self doesn't access instance or class data, and behaves like a regular function used for logical grouping.
+
+'''
+
 class Employee:
     company = "HP"
     def __init__(self, name, salary):
