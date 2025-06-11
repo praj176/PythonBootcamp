@@ -15,6 +15,10 @@ while True:
         b = int(input("Enter the second number? "))
         print(f"The sum of both number is {a + b}")
 
-    except:
-        print("Some error occurred")
+    # except:
+    #     print("Some error occurred")
+        
+    except Exception as e: #More precise
+        print("Some error occurred", e)
+    
     
