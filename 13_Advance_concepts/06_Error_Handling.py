@@ -3,6 +3,8 @@ Errors and exception handling in Python help ensure that a program can gracefull
 Types of Errors:
 - Syntax Errors
 - Runtime Errors (Exceptions) – Occur while the program is running (e.g., dividing by zero, accessing an invalid index).
+
+https://codingzap.com/types-of-errors-in-python/
 '''
 
 while True:
