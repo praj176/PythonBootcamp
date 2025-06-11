@@ -4,7 +4,15 @@ Types of Errors:
 - Syntax Errors
 - Runtime Errors (Exceptions) – Occur while the program is running (e.g., dividing by zero, accessing an invalid index).
 
-https://codingzap.com/types-of-errors-in-python/
+ZeroDivisionError	>  Division by zero (10 / 0)
+TypeError           >  Invalid operation between incompatible types ("text" + 5)
+IndexError          >  Accessing an out-of-range list index (lst[10] when lst has 5 elements)
+KeyError	        > Trying to access a non-existent dictionary key (dict["missing_key"])
+ValueError	        > Incorrect value format (int("hello"))
+AttributeError	    > Calling an undefined attribute (NoneType object has no attribute .upper())
+ImportError	        > Failure to import a module (import nonexistent_module)
+FileNotFoundError	> Trying to open a missing file (open("nonexistent.txt"))
+
 '''
 
 while True:
@@ -19,8 +27,16 @@ while True:
 
     # except:
     #     print("Some error occurred")
-        
+    
     except Exception as e: #More precise
         print("Some error occurred", e)
+
+    except ValueError:
+        print("Please don't perform bad typecast!")
+        
+    except ZeroDivisionError:
+        print("Please don't divide by zero!")
+        
+
     
     
