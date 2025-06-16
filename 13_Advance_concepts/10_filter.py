@@ -1,3 +1,8 @@
+'''
+>> filter(function, iterable)
+Filters elements in the iterable for which the function returns True.
+'''
+
 def is_greater_than_9(x):
     if x > 9:
         return True
