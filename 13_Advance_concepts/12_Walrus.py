@@ -17,3 +17,17 @@ while n > 0:
 numbers = [1, 2, 3, 4, 5]
 while (n := len(numbers)) > 0:
     print(numbers.pop())
+
+''' ALT Example 
+Without walrus operator
+
+name = input("Enter your name: ")
+if name:
+    print(f"Hello, {name}!")
+
+With Walrus Operator
+
+if (name := input("Enter your name: ")):
+    print(f"Hello, {name}!")
+
+Walrus operator helps in assigning value to a variable within an expression ('if' in this case)
