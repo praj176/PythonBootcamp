@@ -1,6 +1,6 @@
 student = {"name": "Richard", "age": 34, "grade": "A"}
 
-print(student["name"])
+print(student["name"]) # Returns value associated with the key > "Name"
 
 #adding new element
 
