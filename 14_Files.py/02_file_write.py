@@ -1,4 +1,4 @@
-# Opens the file for writing. If the file exists, its contents will be overwritten 
+# Opens the file for writing. If the file exists, its contents will be overwritten(Entire file will be cleared and the content will be rewritten)
 #(If the file doesn't exist, a new file will be created)
 
 # write info in the text file
