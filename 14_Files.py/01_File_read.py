@@ -20,6 +20,7 @@ if we need to read a file line by line
 >> Efficient for large files
 
 for line in file:
+  print(line) #To print just the line
   print(line.strip()) #Removes the inline characters
 file.close() 
 '''
