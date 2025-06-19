@@ -1,4 +1,5 @@
-#Opens the file for appending. Data will be added to the end of the file. If the file doesn't exist new file will be created. 
+#Opens the file for appending. Data will be added to the end of the file. 
+#If the file doesn't exist new file will be created. 
 #Append to an existing file called test.txt file
 # add more info regarding random info
 
