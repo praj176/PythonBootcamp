@@ -6,7 +6,8 @@ Working with files generally involves:
 3. Closing the file
 '''
 #in-order to read a file we need to create a file object
-f = open("14_Files.py\test.txt", "r")
+f = open("14_Files.py\\test.txt", "r") 
+#Use relative path or the absolute path of the file and at last try to use double backward slashes (\\) instead of one to avoid Syntax errors for escape characters 
 content = f.read()
 print(content)
 f.close()
