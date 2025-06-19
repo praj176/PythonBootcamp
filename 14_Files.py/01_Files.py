@@ -7,9 +7,10 @@ Working with files generally involves:
 '''
 #in-order to read a file we need to create a file object
 f = open("14_Files.py\test.txt", "r")
-
 content = f.read()
-
 print(content)
-
 f.close()
+
+#Exception if in case the file is not found in the location.
+except FileNotFoundError: # Name of the error which is faced when the file is not found
+  print("File not found")
