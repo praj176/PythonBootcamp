@@ -14,3 +14,12 @@ f.close()
 #Exception if in case the file is not found in the location.
 except FileNotFoundError: # Name of the error which is faced when the file is not found
   print("File not found")
+
+'''
+if we need to read a file line by line
+>> Efficient for large files
+
+for line in file:
+  print(line.strip()) #Removes the inline characters
+file.close() 
+'''
