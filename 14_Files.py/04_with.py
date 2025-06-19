@@ -5,7 +5,7 @@
 # f.close()
 
 #Better approach
-with open("14_File_IO.py//openme.txt","r") as f:
+with open("14_File_IO.py//test.txt","r") as f:
     content = f.read()
     print(content)
     
