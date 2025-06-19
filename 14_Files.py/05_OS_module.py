@@ -18,6 +18,7 @@ os.remove("#path")
 
 #To delete EMPTY directory
 os.rmdir()
+#To delete Non-empty directory we need to use shutill module
 
 #To rename the file or Directory
 os.rename(old_name.txt, new_name.txt)
