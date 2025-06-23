@@ -1,5 +1,11 @@
 '''
-A command-line utility is a Python script you can run from the terminal/command prompt, just like built-in commands (ls, cd, mkdir, etc.), but made by you.
+A command-line utility is a Python script you run from the terminal, like built-in commands, that takes arguments and performs tasks like automation, file handling, or system checks.
+| Module     | Purpose                             |
+| ---------- | ----------------------------------- |
+| `sys`      | Access raw command-line arguments   |
+| `argparse` | Parse arguments in a clean way      |
+| `click`    | Build modern, user-friendly tools   |
+| `typer`    | Even simpler and modern CLI builder |
 
-It accepts arguments and options from the command line, and then performs some task — like file conversion, automation, system checks, etc.
+eg. pip install pandas → pip is a command-line utility
 '''
