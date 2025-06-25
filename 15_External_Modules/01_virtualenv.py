@@ -29,5 +29,23 @@ Requirements.txt : It is a file which is for the users of your project
 The dependency of the project in a single file is called requirements.txt.
 '''
 
-pip freeze # Creates the requirements.txt file which includes the list of all the packages with versions
+pip freeze > requirements.txt # Creates the requirements.txt file which includes the list of all the packages with versions
+
+deactivate  # To deactivate the virtual environment
+
+# Let see how to install the requirements file in another environment
+#1 Create a new virtual environment
+python -m venv env_name2
+
+# Activate the virtual environment
+env_name2\Scripts\Activate.ps1
+#Instead of installing each package individually, you can use the requirements.txt file—which lists all the necessary modules and their versions—to set up the new environment efficiently.
+
+pip install -r requirements.txt
+#scan all the packages inside my requirements.txt and install them one by one.
+
+# Now you don't need to install the packages which were already installed in the previous virtual environment.
+# The packages installed in this enviroment won't be installed in the global python environment.
+
+
 
