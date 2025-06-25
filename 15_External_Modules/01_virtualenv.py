@@ -29,5 +29,5 @@ Requirements.txt : It is a file which is for the users of your project
 The dependency of the project in a single file is called requirements.txt.
 '''
 
-pip freeze # list downs all the packages with versions
+pip freeze # Creates the requirements.txt file which includes the list of all the packages with versions
 
