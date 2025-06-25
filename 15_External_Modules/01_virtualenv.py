@@ -24,7 +24,10 @@ pip list # Lists all installed packages
 
 pip uninstall package_name #uninstall
 
-'''Requirements.txt'''
+'''
+Requirements.txt : It is a file which is for the users of your project 
+The dependency of the project in a single file is called requirements.txt.
+'''
 
 pip freeze # list downs all the packages with versions
 
