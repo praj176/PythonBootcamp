@@ -19,3 +19,7 @@ if match:
 #To find all occurrence of a instance :
 matches = re.findall("the", text, re.IGNORECASE) # Does the case INsensistive search
 print("Matches: ",matches)
+
+#Replace :
+new_text = re.sub("fox", "cat", text)
+print("new text : ", new_text)
