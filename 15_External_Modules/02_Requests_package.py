@@ -5,3 +5,4 @@ pip install requests #terminal
 #python program
 import requests
 
+r = request.get("https://api.github.com")
