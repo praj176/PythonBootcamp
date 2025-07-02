@@ -5,8 +5,17 @@ pip install requests #terminal
 #python program
 import requests
 
+'''
+GET Request :
+Retrieves data from a server.
+How it works: Sends data as part of the URL
+Use cases:
+ > Searching on Google
+ > Loading a webpage
+ > Fetching public data from an API
+'''
 r = request.get("https://api.github.com")
-# will do the get request to get the information regarding the URL, 
+# We will do the get request to get the information regarding the URL, 
 #requests.get("URL") > retrieve data from the URL
 print(r.text) # prints the data in the text data.
 with open("github.txt", "w") as f:
