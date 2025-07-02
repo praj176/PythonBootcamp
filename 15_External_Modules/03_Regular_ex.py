@@ -9,3 +9,9 @@ You use it to:
 import re #Built in module
 
 text = 'The quick brown fox jumps over the lazy dog.'
+#Search for a pattern
+match = re.search("brown",text)
+if match:
+    print("Match found")
+    print("Start index: ",match.start()) # Returns the first occurrence in the sequence
+    print("End index: ",match.end())
