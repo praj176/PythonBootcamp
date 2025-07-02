@@ -15,7 +15,7 @@ Use cases:
  > Loading a webpage
  > Fetching public data from an API
 '''
-r = request.get("https://api.github.com")
+r = requests.get("https://api.github.com")
 # We will do the get request to get the information regarding the URL, 
 #requests.get("URL") > retrieve data from the URL
 print(r.text) # prints the data in the text data.
@@ -34,5 +34,7 @@ Use cases:
  > Sending form data to a server
 
 '''
+
+p = requests.post("https://library_example.com", data={'key': 'value'})
 
 
