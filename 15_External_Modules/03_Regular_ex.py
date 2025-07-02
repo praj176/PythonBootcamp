@@ -23,3 +23,15 @@ print("Matches: ",matches)
 #Replace :
 new_text = re.sub("fox", "cat", text)
 print("new text : ", new_text)
+
+'''
+Output
+Match found
+Start index:  10
+End index:  15
+Matches:  ['The', 'the']
+new text :  The quick brown cat jumps over the lazy dog.
+'''
+
+
+
