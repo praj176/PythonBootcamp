@@ -7,7 +7,7 @@ import requests
 
 '''
 GET Request : (You’re just asking for information not changing anything)
-Retrieves data from a server.
+It asks a website or server for information and retrieves data from them!
 How it works: Sends data as part of the URL
 Use cases:
  > Searching on Google
