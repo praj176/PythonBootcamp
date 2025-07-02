@@ -4,7 +4,8 @@ You use it to:
  > Check if a string contains a pattern
  > Extract specific parts of a string
  > Replace or split text based on patterns
- 
+
+ Check : https://regexr.com/
  '''
 import re #Built in module
 
