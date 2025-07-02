@@ -6,3 +6,6 @@ You use it to:
  > Replace or split text based on patterns
  
  '''
+import re #Built in module
+
+text = 'The quick brown fox jumps over the lazy dog.'
