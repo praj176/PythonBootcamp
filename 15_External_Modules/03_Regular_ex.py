@@ -15,3 +15,7 @@ if match:
     print("Match found")
     print("Start index: ",match.start()) # Returns the first occurrence in the sequence
     print("End index: ",match.end())
+
+#To find all occurrence of a instance :
+matches = re.findall("the", text, re.IGNORECASE) # Does the case INsensistive search
+print("Matches: ",matches)
