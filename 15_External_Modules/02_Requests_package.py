@@ -27,6 +27,7 @@ with open("github.txt", "w") as f:
 POST Requests : 
 Purpose: Sends data to a server to create or update a resource.
 How it works: Sends data in the request body, More secure for sensitive data like passwords.
+>> It’s used when you want to create or update something.
 Use cases:
  > Submitting a login form
  > Uploading a file
