@@ -22,4 +22,15 @@ with open("github.txt", "w") as f:
   f.write(r.text)
 # Content of the URL is written the github.txt file
 
+'''
+POST Requests : 
+Purpose: Sends data to a server to create or update a resource.
+How it works: Sends data in the request body, More secure for sensitive data like passwords.
+Use cases:
+ > Submitting a login form
+ > Uploading a file
+ > Sending form data to a server
+
+'''
+
 
