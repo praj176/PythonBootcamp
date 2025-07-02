@@ -6,3 +6,7 @@ pip install requests #terminal
 import requests
 
 r = request.get("https://api.github.com")
+# will do the get request to get the information regarding the URL, 
+#requests.get("URL") > retrieve data from the URL
+
+
