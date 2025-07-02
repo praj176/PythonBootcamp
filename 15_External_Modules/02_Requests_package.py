@@ -6,7 +6,7 @@ pip install requests #terminal
 import requests
 
 '''
-GET Request :
+GET Request : (You’re just asking for information not changing anything)
 Retrieves data from a server.
 How it works: Sends data as part of the URL
 Use cases:
