@@ -10,3 +10,8 @@ Share the same memory and resources. Can run tasks in parallel (like multitaskin
 
 Eg : Process can be considered as restaurant and threads can be considered as chefs.
 '''
+import threading
+import time
+'''
+The threading module lets your Python program run multiple tasks at the same time (or at least switch between them quickly). 
+This is especially helpful when your program is waiting like for a file to download or a website to respond.'''
