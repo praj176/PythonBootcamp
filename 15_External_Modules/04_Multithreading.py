@@ -40,6 +40,17 @@ for i in range(3):
 for thread in threads:
     thread.join()   # This makes sure the main program waits until this thread is done
 
+
+'''
+Thread 0: Starting
+Thread 1: Starting
+Thread 2: Starting
+Thread 0: Finishing
+Thread 1: Finishing
+Thread 2: Finishing
+All threads completed
+
+'''
 # After all threads are finished, print this
 print("All threads completed")
 
