@@ -16,3 +16,7 @@ import time
 Used the threading module to run multiple tasks simultaneously, improving efficiency during wait times like file downloads or API responses
 eg : like downloading and working at the same time without waiting.
 '''
+def worker(num):
+  print(f"Thread {num}: Starting")
+  time.sleep(2)
+  print(f"Thread {num}: Fninshing")
