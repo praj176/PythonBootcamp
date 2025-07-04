@@ -14,5 +14,5 @@ import threading
 import time
 '''
 Used the threading module to run multiple tasks simultaneously, improving efficiency during wait times like file downloads or API responses
-like downloading and working at the same time without waiting.
+eg : like downloading and working at the same time without waiting.
 '''
