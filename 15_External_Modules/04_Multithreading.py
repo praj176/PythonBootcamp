@@ -16,16 +16,30 @@ import time
 Used the threading module to run multiple tasks simultaneously, improving efficiency during wait times like file downloads or API responses
 eg : like downloading and working at the same time without waiting.
 '''
-def worker(num):
-  print(f"Thread {num}: Starting")
-  time.sleep(2)
-  print(f"Thread {num}: Fninshing")
+import threading  # To create threads
+import time       # To add delay using sleep()
 
-threads = []
+# This is the function that each thread will run
+def worker(num):
+    print(f"Thread {num}: Starting")  # Print when a thread starts
+    time.sleep(2)                     # Simulate some work by waiting 2 seconds
+    print(f"Thread {num}: Finishing") # Print when a thread finishes
+
+threads = []  # Create an empty list to keep track of all thread objects
+
+# Start 3 threads
 for i in range(3):
-  thread = threading.Thread(target=worker, args=(i,))
-  threads.append(thread)
-  thread.start()
+    # Create a Thread object that will run the 'worker' function with argument 'i'
+    thread = threading.Thread(target=worker, args=(i,))
+    
+    threads.append(thread)  # Add the thread to our list
+    
+    thread.start()  # Start running the thread (calls the worker() function in parallel)
+
+# Wait for all threads to finish before moving on
 for thread in threads:
-  thread.join() #waiting for all threads to finish
-print("all threads completed")
+    thread.join()   # This makes sure the main program waits until this thread is done
+
+# After all threads are finished, print this
+print("All threads completed")
+
