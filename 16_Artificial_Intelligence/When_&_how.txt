@@ -14,3 +14,8 @@ This not only saves time but also reduces the risk of coding errors that could p
 To write code specifically we can use GitHub Copilot free tier.
 Extension available in VSCode.
 
+3. Be very specific with your prompt.
+------------------------------------
+Specific requirements according to the need of the project.
+Mention it very clear so that it yeilds a better outcome.
+
