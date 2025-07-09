@@ -1,3 +1,5 @@
+#Writing this function without using the re package
+
 def convert_to_dashed_string(text: str) -> str:
     """
     Converts a given string to a dashed format by:
