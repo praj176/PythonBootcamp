@@ -27,3 +27,8 @@ Always use AI as an assistany and do not replace thinking with AI.
 Think using your own brain.
 Do not use AI for creativity or thinking because that is something AI cannot do.
 
+5. Use AI to solve problems.
+----------------------------
+Generate practice problems in AI.
+Ask AI about the code you have written , ask for improvements and what can be changed.
+
