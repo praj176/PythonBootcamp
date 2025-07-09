@@ -20,3 +20,10 @@ Specific requirements according to the need of the project.
 Mention it very clear so that it yeilds a better outcome.
 A good, clear and detailed prompt can make a huge difference in the outcome.
 
+4. Limit using AI.
+-----------------
+Reduce the dependancy of AI use, use more brain in solving the problem.
+Always use AI as an assistany and do not replace thinking with AI.
+Think using your own brain.
+Do not use AI for creativity or thinking because that is something AI cannot do.
+
