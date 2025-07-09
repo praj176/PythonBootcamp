@@ -18,4 +18,5 @@ Extension available in VSCode.
 ------------------------------------
 Specific requirements according to the need of the project.
 Mention it very clear so that it yeilds a better outcome.
+A good, clear and detailed prompt can make a huge difference in the outcome.
 
