@@ -1,1 +1,10 @@
+How and When to Use AI
+=======================
 
+These are five strategies to use Artificial Intelligence effectively:
+
+1. Divide and Conquer
+---------------------
+Break down large problems into manageable sub-problems. 
+Segment the workflow and identify sections where AI can automate repetitive tasks. 
+This not only saves time but also reduces the risk of coding errors that could potentially crash the entire application.
